@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms version 5</title>
+</head>
+<body>
+    <!-- in html we can use only get and post methods we can't use with put method -->
+     <!-- # will define none or null -->
+      <!-- autocomplete will give the deatils of past entered but when we set it off it will not give the previous details -->
+    <form method="get" action="#" target="_blank" autocomplete="off">
+    <label>Name</label>
+    <!-- the min-length and max length can be used only for the string not for numbers -->
+    <input type="text" name="name"  min-length="5" max-length="15"/ required><br><br>
+    <label>email</label>
+    <input type="email" name="email" /><br><br>
+    <label>contact no</label>
+    <input type="number" name="phone-no" value="html5 number"/><br><br>
+    <label>url</label>
+    <input type="url" name="url" placeholder="enter the valid url" readonly/><br><br>
+    <label>search</label>
+    <input type="search" name="search" placeholder="enter anything to search "/><br><br>
+    <label>time</label>
+    <input type="time" name="time" valiue="time"/><br><br>
+    <label>date</label>
+    <input type="date" name="date"/><br><br>
+    <label>month</label>
+    <input type="month" name="month"/><br><br>
+    <!-- <label>datetime</label>
+    <input type="date-time" name="datetime"/><br><br> -->
+    <label>week</label>
+    <input type="week" name="week" /><br><br>
+     <button>button tag</button>   
+     <button>button</button><br><br>
+     <!-- Drop down button -->
+      <select>
+        <option>choose your city</option>
+        <option>bnglore</option>
+        <option>tpt</option>
+        <option>Hyd</option>
+      </select>
+      <button>submit</button>
+</form>
+</form>
+</body>
+</html>
